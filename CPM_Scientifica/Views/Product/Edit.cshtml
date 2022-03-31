@@ -1,0 +1,117 @@
+﻿@model  Data.Product
+
+<section class="section bg-light">
+    <div class="container">
+        <div class="row justify-content-center mb-5 element-animate">
+            <div class="col-md-8 text-center mb-5">
+                <h2 class="text-uppercase heading border-bottom mb-4">Editar Producto</h2>
+                <br />
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="row">
+                        <div class="col-md-4 form-group">
+                            <p class="mb-0 lead">
+                                <label for="Name" style="color:black">Nombre del Producto</label>
+                                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                            </p>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <p class="mb-0 lead">
+                                <label for="_type" style="color:black">Tipo</label>
+                                @Html.DropDownListFor(model => model._type, new
+                                List<SelectListItem>()
+                                    {
+                                        new SelectListItem(){Selected = false, Text = "Microbiología", Value = "Microbiologia" },
+                                        new SelectListItem(){Selected = false, Text = "Química Clínica", Value = "Quimica Clinica" },
+                                        new SelectListItem(){Selected = false, Text = "Otro", Value = "Otro" },
+                                    }, "Selecciona", new { @id = "_type", @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model._type, "", new { @class = "text-danger" })
+                            </p>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <p class="mb-0 lead">
+                                <label for="_state" style="color:black">Estado</label>
+                                @Html.ValidationMessageFor(model => model._state, "", new { @class = "text-danger" })
+                                @Html.DropDownListFor(model => model._state, new
+                                List<SelectListItem>()
+                                {
+                                    new SelectListItem(){Selected = false, Text = "Normal", Value = "Normal" },
+                                    new SelectListItem(){Selected = false, Text = "Cecmed", Value = "Cecmed" },
+                                    new SelectListItem(){Selected = false, Text = "No Presentado", Value = "No Presentado" },
+                                    new SelectListItem(){Selected = false, Text = "Otro", Value = "Otro" },
+                                }, "Selecciona", new { @id = "_state", @class = "form-control" })
+                            </p>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <p class="mb-0 lead">
+                                <label for="System" style="color:black">Sistema</label>
+                                @Html.EditorFor(model => model.System, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.System, "", new { @class = "text-danger" })
+                            </p>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <p class="mb-0 lead">
+                                <label for="Family" style="color:black">Familia</label>
+                                @Html.EditorFor(model => model.Family, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Family, "", new { @class = "text-danger" })
+                            </p>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <p class="mb-0 lead">
+                                <label for="Application" style="color:black">Aplicación</label>
+                                @Html.EditorFor(model => model.Application, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Application, "", new { @class = "text-danger" })
+                            </p>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <p class="mb-0 lead">
+                                <label for="Presentation" style="color:black">Presentación</label>
+                                @Html.EditorFor(model => model.Presentation, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Presentation, "", new { @class = "text-danger" })
+                            </p>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <p class="mb-0 lead">
+                                <label for="Ref" style="color:black">Ref</label>
+                                @Html.EditorFor(model => model.Ref, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Ref, "", new { @class = "text-danger" })
+                            </p>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <p class="mb-0 lead">
+                                <label for="Name" style="color:black">Nombre del Fabricante</label>
+                                @Html.DropDownList("MakerId", null, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.MakerId, "", new { @class = "text-danger" })
+                            </p>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <p class="mb-0 lead">
+                                <label for="RegisterPresent" style="color:black">Registro Presentado</label>
+                                @Html.CheckBoxFor(model => model.RegisterPresent)
+                                @Html.ValidationMessageFor(model => model.RegisterPresent, "", new { @class = "text-danger" })
+                            </p>
+                        </div>
+                        
+                        
+                    </div>
+                    <p class="mb-0 lead">
+                        <button class="btn btn-lg fa fa-edit fa-lg" type="submit" style="color:blue"></button>
+                    </p>
+                }
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="cover_1" style="background-image: url(/myimag/mole1.jpg);">
+    <div class="container">
+    </div>
+</section>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

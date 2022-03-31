@@ -1,0 +1,34 @@
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\Data\bin\Debug\Data.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\Data\bin\Debug\Data.pdb
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\Data\bin\Debug\Services.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\Data\bin\Debug\Services.pdb
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\Data\obj\Debug\Data.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\Data\obj\Debug\Data.pdb
+C:\Users\Shey\Desktop\CPM_Scientifica\Data\bin\Debug\Data.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\Data\bin\Debug\Data.pdb
+C:\Users\Shey\Desktop\CPM_Scientifica\Data\bin\Debug\Services.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\Data\bin\Debug\Services.pdb
+C:\Users\Shey\Desktop\CPM_Scientifica\Data\obj\Debug\Data.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\Data\obj\Debug\Data.pdb
+C:\Users\Shey\Desktop\CPM_Scientifica\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\Shey\Desktop\CPM_Scientifica\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Shey\Desktop\CPM_Scientifica\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\Data\bin\Debug\Data.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\Data\bin\Debug\Data.pdb
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\Data\bin\Debug\Services.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\Data\bin\Debug\Services.pdb
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\Data\obj\Debug\Data.csproj.AssemblyReference.cache
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\Data\obj\Debug\Data.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\Data\obj\Debug\Data.pdb
+D:\laura\CPM_Scientifica\Data\bin\Debug\Data.dll
+D:\laura\CPM_Scientifica\Data\bin\Debug\Data.pdb
+D:\laura\CPM_Scientifica\Data\bin\Debug\Services.dll
+D:\laura\CPM_Scientifica\Data\bin\Debug\Services.pdb
+D:\laura\CPM_Scientifica\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+D:\laura\CPM_Scientifica\Data\obj\Debug\Data.csproj.CopyComplete
+D:\laura\CPM_Scientifica\Data\obj\Debug\Data.dll
+D:\laura\CPM_Scientifica\Data\obj\Debug\Data.pdb
+D:\laura\CPM_Scientifica\Data\obj\Debug\Data.csprojAssemblyReference.cache

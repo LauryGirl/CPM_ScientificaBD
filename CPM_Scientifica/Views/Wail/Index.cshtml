@@ -1,0 +1,99 @@
+﻿@model IEnumerable<Data.Wail>
+
+@{
+    ViewBag.Title = "Index";
+}
+<section class="cover_1" style="background-image: url(/myimag/1.jpg);">
+    <div class="container">
+        <div class="row text-center justify-content-center">
+            <h1>Aquí están nuestras quejas</h1>
+
+        </div>
+    </div>
+</section>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table V03</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="~/Table_Highlight_Vertical_Horizontal/images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Table_Highlight_Vertical_Horizontal/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Table_Highlight_Vertical_Horizontal/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Table_Highlight_Vertical_Horizontal/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Table_Highlight_Vertical_Horizontal/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Table_Highlight_Vertical_Horizontal/vendor/perfect-scrollbar/perfect-scrollbar.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Table_Highlight_Vertical_Horizontal/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/Table_Highlight_Vertical_Horizontal/css/main.css">
+    <!--===============================================================================================-->
+</head>
+<body>
+    <div class="container-table100">
+        <div class="wrap-table100">
+            <div class="table100 ver5 m-b-110">
+                <table data-vertable="ver5" style="width:100%">
+                    <thead>
+                        <tr class="row100 head">
+                            <th class="column100 column1" style="width:7px">Nombre del Producto</th>
+                            <th class="column100 column2" style="width:7px">Conclusiones</th>
+                            <th class="column100 column3" style="width:7px">Estado</th>
+                            <th class="column100 column4" style="width:7px">
+                                <p>
+                                    @Html.ActionLink("Crear Nuevo", "Create", null, new { @class = "fa fa-hand-o-right fa-lg" })
+                                </p>
+                            </th>
+                        </tr>
+                    </thead>
+
+                    @foreach (var item in Model)
+                    {
+                        <tbody>
+                            <tr class="row100">
+                                <td class="column100 column1" data-column="column1">@Html.DisplayFor(modelItem => item.Product.Name)</td>
+                                <td class="column100 column2" data-column="column2">@Html.DisplayFor(modelItem => item.Closure)</td>
+                                <td class="column100 column3" data-column="column3">@Html.DisplayFor(modelItem => item._state)</td>
+                                <td class="column100 column4" data-column="column4">
+                                    @Html.ActionLink(" ", "Edit", new { id = item.WailId }, new { @class = "fa fa-edit fa-lg", @style = "color:blue" }) |
+                                    @Html.ActionLink(" ", "Details", new { id = item.WailId }, new { @class = "fa fa-folder-open fa-lg", @style = "color:green" }) |
+                                    @Html.ActionLink(" ", "Delete", new { id = item.WailId }, new { @class = "fa fa-trash fa-lg", @style = "color:red" })
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    }
+                </table>
+            </div>
+
+            <!--===============================================================================================-->
+            <script src="~/Table_Highlight_Vertical_Horizontal/vendor/jquery/jquery-3.2.1.min.js"></script>
+            <!--===============================================================================================-->
+            <script src="~/Table_Highlight_Vertical_Horizontal/vendor/bootstrap/js/popper.js"></script>
+            <script src="~/Table_Highlight_Vertical_Horizontal/vendor/bootstrap/js/bootstrap.min.js"></script>
+            <!--===============================================================================================-->
+            <script src="~/Table_Highlight_Vertical_Horizontal/vendor/select2/select2.min.js"></script>
+            <!--===============================================================================================-->
+            <script src="~/Table_Highlight_Vertical_Horizontal/js/main.js"></script>
+        </div>
+    </div>
+</body>
+</html>
+
+<section class="cover_1" style="background-image: url(/myimag/pic2.jpg);">
+    <div class="container">
+        <div class="row text-center justify-content-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <p><a href="http://localhost:57007/WailQueries/Index" class="btn btn-primary btn-lg">Consultas &raquo;</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

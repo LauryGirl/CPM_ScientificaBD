@@ -1,0 +1,9 @@
+D:\laura\CPM_Scientifica\Data\bin\Release\Data.dll
+D:\laura\CPM_Scientifica\Data\bin\Release\Data.pdb
+D:\laura\CPM_Scientifica\Data\bin\Release\Services.dll
+D:\laura\CPM_Scientifica\Data\bin\Release\Services.pdb
+D:\laura\CPM_Scientifica\Data\obj\Release\Data.csproj.CoreCompileInputs.cache
+D:\laura\CPM_Scientifica\Data\obj\Release\Data.csproj.CopyComplete
+D:\laura\CPM_Scientifica\Data\obj\Release\Data.dll
+D:\laura\CPM_Scientifica\Data\obj\Release\Data.pdb
+D:\laura\CPM_Scientifica\Data\obj\Release\Data.csprojAssemblyReference.cache

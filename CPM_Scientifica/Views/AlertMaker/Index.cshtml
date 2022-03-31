@@ -1,0 +1,293 @@
+﻿
+
+@{
+    ViewBag.Title = "Index";
+}
+<link rel="stylesheet" type="text/css" href="~/sweetalert/sweetalert/sweetalert2.min.css">
+<script type="text/javascript" src="~/sweetalert/sweetalert/sweetalert2.min.js"></script>
+
+@using (Html.BeginForm())
+{
+    <section class="section bg-light">
+        <div class="container">
+            <div class="row justify-content-center mb-5 element-animate">
+                <div class="col-md-8 text-center mb-5">
+                    <h2 class="text-uppercase heading border-bottom mb-4">Revisa tus alarmas</h2>
+                    <p class="mb-0 lead">
+                        Aquí puedes consultar el estado de las "Autorizaciones de Cámara de Comercio", "Documentaciones de Buenas Prácticas"
+                        y los "Certificados de Libre Venta" de los fabricantes.
+                    </p>
+                </div>
+            </div>
+            <div class="row element-animate">
+                <div>
+                    <div class="media d-block media-custom text-center">
+                        <img src="~/myimag/e2.jpg" alt="Image Placeholder" class="img-fluid">
+                        <div class="media-body">
+                            <p style="color:black">
+                                En "ATENCIÓN" sabrás si existen o no fabricantes cuya "Autorización de Cámara de Comercio" 
+                                está próxima a vencerce, mientras que en "PROBLEMAS" estarán recogidos todos aquellos 
+                                fabricantes problemáticos en caso de exitir.
+                            </p>
+                            <button class="btn btn-warning btn-lg fa fa-warning fa-lg" id="btnGetAlarma31">ATENCIÓN</button>
+                            <button class="btn btn-danger btn-lg fa fa-window-close fa-lg" id="btnGetAlarma32">PROBLEMAS</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="media d-block media-custom text-center">
+                        <img src="~/myimag/1.jpg" alt="Image Placeholder" class="img-fluid">
+                        <div class="media-body">
+                            <p style="color:black">
+                                En "ATENCIÓN" sabrás si existen o no fabricantes cuya "Documentación de Buenas Prácticas" 
+                                está próxima a vencerce, mientras que en "PROBLEMAS" estarán recogidos todos aquellos
+                                fabricantes problemáticos en caso de exitir.
+                            </p>
+                            <button class="btn btn-warning btn-lg fa fa-warning fa-lg" id="btnGetAlarma41">ATENCIÓN</button>
+                            <button class="btn btn-danger btn-lg fa fa-window-close fa-lg" id="btnGetAlarma42">PROBLEMAS</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="media d-block media-custom text-center">
+                        <img src="~/myimag/7.jpg" alt="Image Placeholder" class="img-fluid">
+                        <div class="media-body">
+                            <p style="color:black">
+                                En "ATENCIÓN" sabrás si existen o no fabricantes cuya "Certificado de Libre Venta" 
+                                está próxima a vencerce, mientras que en "PROBLEMAS" estarán recogidos todos aquellos
+                                fabricantes problemáticos en caso de exitir.
+                            </p>
+                            <p class="element-animate"></p>
+                            <button class="btn btn-warning btn-lg fa fa-warning fa-lg" id="btnGetAlarma51">ATENCIÓN</button>
+                            <button class="btn btn-danger btn-lg fa fa-window-close fa-lg" id="btnGetAlarma52">PROBLEMAS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END slider -->
+            <div class="row justify-content-center mb-5 element-animate">
+                <div class="col-md-8 text-center mb-5">
+                    <h2 class="text-uppercase heading border-bottom mb-4">En caso de problemas</h2>
+                    <p class="mb-0 lead">
+                        Revisa los casos puntuales aquí.
+                    </p>
+                    <button class="btn btn-classic btn-lg fa fa-refresh fa-lg" id="btnGetClean"></button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <p> <div id="lblMessage" style="color:black"></div></p>
+
+}
+
+@section Scripts
+    {
+    <script type="text/javascript">
+
+        $(function () {
+
+            $('#btnGetClean').on("click", function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("CleanerM")',
+                    data: {},
+                    datatype: 'json',
+                    cache: false,
+                })
+                .done(function (data) {
+                    if (data.Clean) {
+                        $('#lblMessage').html('');
+                    }
+                    else {
+                    }
+                })
+                .fail(function (hxr, ajaxOptions, throwError) {
+                    $('#lblMessage').html('Error!');
+                });
+
+                return false;
+            });
+
+            $('#btnGetAlarma31').on("click", function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("ACCBoolAlarmQuery")',
+                    data: {},
+                    datatype: 'json',
+                    cache: false,
+                })
+                .done(function (data) {
+                    if (!data.A_5) {
+                        $('#lblMessage').html('');
+                        swal({
+                            title: 'Todo Bien!',
+                            text: "Todo está al día, no se han encontrado problemas.",
+                            type: 'success'
+                        })
+                    }
+                    else {
+                        $('#lblMessage').html('');
+                        swal({
+                            title: 'Problemas!',
+                            text: "Necesitar revisar mejor, se han detectado problemas.",
+                            type: 'warning'
+                        })
+                    }
+                })
+                .fail(function (hxr, ajaxOptions, throwError) {
+                    $('#lblMessage').html('Error!');
+                });
+
+            return false;
+            });
+
+            $('#btnGetAlarma32').on("click", function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("ACCAlarmQuery")',
+                    data: {},
+                    datatype: 'json',
+                    cache: false,
+                })
+                .done(function (data) {
+                    var outPut = '';
+                    for (var i = 0; i < data.A_6.length; i++) {
+                        for (var j = 0; j < data.A_6[i].length; j++) {
+                            outPut += data.A_6[i][j].Item1 + data.A_6[i][j].Item2 + '<br/>';
+                        }
+                        outPut += '<hr/><br/>';
+                    }
+                    $('#lblMessage').html(outPut);
+                })
+                .fail(function (hxr, ajaxOptions, throwError) {
+                    $('#lblMessage').html('Error!');
+                });
+
+            return false;
+        });
+
+        //----------------------------------------------End4-----------------------------------------------------------------
+            
+
+            $('#btnGetAlarma41').on("click", function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("GDPBoolAlarmQuery")',
+                    data: {},
+                    datatype: 'json',
+                    cache: false,
+                })
+                .done(function (data) {
+                    if (!data.A_7) {
+                        swal({
+                            title: 'Todo Bien!',
+                            text: "Todo está al día, no se han encontrado problemas.",
+                            type: 'success'
+                        })
+                    }
+                    else {
+                        swal({
+                            title: 'Problemas!',
+                            text: "Necesitar revisar mejor, se han detectado problemas.",
+                            type: 'warning'
+                        })
+                    }
+                })
+                .fail(function (hxr, ajaxOptions, throwError) {
+                    $('#lblMessage').html('Error!');
+                });
+
+            return false;
+        });
+
+            $('#btnGetAlarma42').on("click", function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("GPDAlarmQuery")',
+                    data: {},
+                    datatype: 'json',
+                    cache: false,
+                })
+                .done(function (data) {
+                    var outPut = '';
+                    for (var i = 0; i < data.A_8.length; i++) {
+                        for (var j = 0; j < data.A_8[i].length; j++) {
+                            outPut += data.A_8[i][j].Item1 + data.A_8[i][j].Item2 + '<br/>';
+                        }
+                        outPut += '<hr/><br/>';
+                    }
+                    $('#lblMessage').html(outPut);
+                })
+                .fail(function (hxr, ajaxOptions, throwError) {
+                    $('#lblMessage').html('Error!');
+                });
+
+            return false;
+        });
+
+        //----------------------------------------------End5-----------------------------------------------------------------
+            
+
+            $('#btnGetAlarma51').on("click", function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("FSCBoolAlarmQuery")',
+                    data: {},
+                    datatype: 'json',
+                    cache: false,
+                })
+                .done(function (data) {
+                    if (!data.A_9) {
+                        swal({
+                            title: 'Todo Bien!',
+                            text: "Todo está al día, no se han encontrado problemas.",
+                            type: 'success'
+                        })
+                    }
+                    else {
+                        swal({
+                            title: 'Problemas!',
+                            text: "Necesitar revisar mejor, se han detectado problemas.",
+                            type: 'warning'
+                        })
+                    }
+                })
+                .fail(function (hxr, ajaxOptions, throwError) {
+                    $('#lblMessage').html('Error!');
+                });
+
+            return false;
+        });
+
+            $('#btnGetAlarma52').on("click", function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("FSCAlarmQuery")',
+                    data: {},
+                    datatype: 'json',
+                    cache: false,
+                })
+                .done(function (data) {
+                    var outPut = '';
+                    for (var i = 0; i < data.A_10.length; i++) {
+                        for (var j = 0; j < data.A_10[i].length; j++) {
+                            outPut += data.A_10[i][j].Item1 + data.A_10[i][j].Item2 + '<br/>';
+                        }
+                        outPut += '<hr/><br/>';
+                    }
+                    $('#lblMessage').html(outPut);
+                })
+                .fail(function (hxr, ajaxOptions, throwError) {
+                    $('#lblMessage').html('Error!');
+                });
+
+            return false;
+        });
+
+//----------------------------------------------End6-----------------------------------------------------------------
+
+     });
+    </script>
+}

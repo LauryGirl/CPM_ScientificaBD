@@ -1,0 +1,401 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<link rel="stylesheet" type="text/css" href="~/sweetalert/sweetalert/sweetalert2.min.css">
+<script type="text/javascript" src="~/sweetalert/sweetalert/sweetalert2.min.js"></script>
+
+@using (Html.BeginForm())
+{
+    <section class="home-slider inner-page owl-carousel">
+        <div class="slider-item" style="background-image: url(/medi/img/slider-2.jpg);">
+            <div class="container">
+                <div class="row slider-text align-items-center">
+                    <div class="col-md-15 col-sm-20 element-animate">
+                        <h1>Realiza tu consulta</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="container home-feature mb-5">
+        <div class="row">
+            <div class="col-md-4 p-0 one-col element-animate">
+                <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
+                    <span class="icon flaticon-hospital-bed"></span>
+                    <h2>Consulta 1</h2>
+                    <p>Esta consulta retorna todas aquellas ventas que se han realizado en el rango de tiempo que se
+                    define.</p>
+                </div>
+                <button class="btn-more fa fa-hand-o-up fa-lg" id="btnGetQuery1">Consultar</button>
+            </div>
+            <div class="col-md-4 p-0 two-col element-animate">
+                <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
+                    <span class="icon flaticon-first-aid-kit"></span>
+                    <h2>Consulta 2</h2>
+                    <p>Esta consulta retorna todas las ventas que se han realizado
+                    tal que el precio de la venta se encuentra por encima del precio que se define.</p>
+                </div>
+                <button class="btn-more fa fa-hand-o-up fa-lg" id="btnGetQuery2">Consultar</button>
+            </div>
+            <div class="col-md-4 p-0 three-col element-animate">
+                <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
+                    <span class="icon flaticon-hospital"></span>
+                    <h2>Consulta 3</h2>
+                    <p>Esta consulta retorna todas las ventas que se han realizado
+                    tal que el precio de la venta se encuentra por debajo del precio que se define.</p>
+                </div>
+                <button class="btn-more fa fa-hand-o-up fa-lg" id="btnGetQuery3">Consultar</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 p-0 one-col element-animate">
+                <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
+                    <span class="icon flaticon-hospital-bed"></span>
+                    <h2>Consulta 4</h2>
+                    <p>Esta consulta retorna todas las ventas que se han realizado
+                    tal que el precio de la venta coincide con el precio que se define.</p>
+                </div>
+                <button class="btn-more fa fa-hand-o-up fa-lg" id="btnGetQuery4">Consultar</button>
+            </div>
+            <div class="col-md-4 p-0 two-col element-animate">
+                <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
+                    <span class="icon flaticon-first-aid-kit"></span>
+                    <h2>Consulta 5</h2>
+                    <p>Esta consulta retorna todas las ventas que se han realizado
+                    tal que el centro del producto vendido coincide con el centro que se define.</p>
+                </div>
+                <button class="btn-more fa fa-hand-o-up fa-lg" id="btnGetQuery5">Consultar</button>
+            </div>
+            <div class="col-md-4 p-0 three-col element-animate">
+                <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
+                    <span class="icon flaticon-hospital"></span>
+                    <h2>Consulta 6</h2>
+                    <p>Esta consulta retorna todos los productos que han sido vendidos
+                    además de la cantidad de ventas que se han realizado de cada uno.</p>
+                </div>
+                <button class="btn-more fa fa-hand-o-up fa-lg" id="btnGetQuery6">Consultar</button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="section bg-light">
+        <div class="container">
+            <div class="row justify-content-center mb-5 element-animate">
+                <div class="col-md-8 text-center mb-5">
+                    <h2 class="text-uppercase heading border-bottom mb-4">Si necesitas especificar algo</h2>
+                    <p class="mb-0 lead">
+                        Llena los campos necesarios.
+                    </p>
+                    <input class=" form-control-lg" id="txtPrice" type="text" placeholder="Precio" />
+                    <input class=" form-control-lg" id="txtCenter" type="text" placeholder="Centro" />
+                    <input class=" form-control-lg" id="txtDate1" type="text" placeholder="Fecha I: mes/día/año" />
+                    <input class=" form-control-lg" id="txtDate2" type="text" placeholder="Fecha F: mes/día/año" />
+                </div>
+            </div>
+            <div class="row justify-content-center mb-5 element-animate">
+                <div class="col-md-8 text-center mb-5">
+                    <h2 class="text-uppercase heading border-bottom mb-4">En caso de consulta</h2>
+                    <p class="mb-0 lead">
+                        La respuesta a tu consulta será mostrada aquí.
+                    </p>
+                    <button class="btn btn-classic btn-lg fa fa-refresh fa-lg" id="btnGetClean"></button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <p> <div id="lblMessage" style="color:black"></div></p>
+}
+
+
+@section Scripts
+    {
+    <script type="text/javascript">
+
+        $(function () {
+
+            $('#btnGetClean').on("click", function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("CleanerQueries")',
+                    data: {},
+                    datatype: 'json',
+                    cache: false,
+                })
+                .done(function (data) {
+                    if (data.Clean) {
+                        $('#lblMessage').html('');
+                    }
+                    else {
+                    }
+                })
+                .fail(function (hxr, ajaxOptions, throwError) {
+                    swal({
+                        title: 'Problemas!',
+                        text: "Se produjo un error. Intente de nuevo.",
+                        type: 'error'
+                    })
+                });
+
+                return false;
+            });
+
+
+            $('#btnGetQuery1').on("click", function () {
+                var d1 = $('#txtDate1').val();
+                var d2 = $('#txtDate2').val();
+                if (d1 == "" && d2 == "") {
+                    swal({
+                        title: 'Atención!',
+                        text: "Usted debe introducir una fecha inicial y una final. Importante resaltar que la fecha debe tener el formato que se indica.",
+                        type: 'warning'
+                    })
+                    return false;
+                }
+                else if (d1 == "") {
+                    swal({
+                        title: 'Atención!',
+                        text: "Usted debe introducir una fecha inicial. Importante resaltar que la fecha debe tener el formato que se indica.",
+                        type: 'warning'
+                    })
+                    return false;
+                }
+                else if (d2 == "") {
+                    swal({
+                        title: 'Atención!',
+                        text: "Usted debe introducir una fecha final. Importante resaltar que la fecha debe tener el formato que se indica.",
+                        type: 'warning'
+                    })
+                    return false;
+                }
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("TakeSaleQuery")',
+                    data: { d1: d1, d2: d2},
+                    datatype: 'json',
+                    cache: false,
+                })
+                .done(function (data) {
+                    var outPut = '';
+                    for (var i = 0; i < data.Q_22.length; i++) {
+                        for (var j = 0; j < data.Q_22[i].length; j++) {
+                            outPut += data.Q_22[i][j].Item1 + data.Q_22[i][j].Item2 + '<br/>';
+                        }
+                        outPut += '<hr/><br/>';
+                    }
+                    $('#lblMessage').html(outPut);
+                })
+                .fail(function (hxr, ajaxOptions, throwError) {
+                    swal({
+                        title: 'Problemas!',
+                        text: "Se produjo un error. Intente de nuevo.",
+                        type: 'error'
+                    })
+                });
+
+            return false;
+        });
+
+//----------------------------------------------End1-----------------------------------------------------------------
+
+
+            $('#btnGetQuery2').on("click", function () {
+                var price = $('#txtPrice').val();
+                if (price == "") {
+                    swal({
+                        title: 'Atención!',
+                        text: "Usted debe introducir un precio.",
+                        type: 'warning'
+                    })
+                    return false;
+                }
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("PriceGreatXSaleQuery")',
+                    data: { price: price},
+                    datatype: 'json',
+                    cache: false,
+                })
+                    .done(function (data) {
+                        var outPut = '';
+                        for (var i = 0; i < data.Q_23.length; i++) {
+                            for (var j = 0; j < data.Q_23[i].length; j++) {
+                                outPut += data.Q_23[i][j].Item1 + data.Q_23[i][j].Item2 + '<br/>';
+                            }
+                            outPut += '<hr/><br/>';
+                        }
+                        $('#lblMessage').html(outPut);
+                    })
+                    .fail(function (hxr, ajaxOptions, throwError) {
+                        swal({
+                            title: 'Problemas!',
+                            text: "Se produjo un error. Intente de nuevo. Verifique si se introdujo un precio válido.",
+                            type: 'error'
+                        })
+                    });
+
+            return false;
+        });
+
+//----------------------------------------------End2-----------------------------------------------------------------
+
+            $('#btnGetQuery3').on("click", function () {
+                var price = $('#txtPrice').val();
+                if (price == "") {
+                    swal({
+                        title: 'Atención!',
+                        text: "Usted debe introducir un precio.",
+                        type: 'warning'
+                    })
+                    return false;
+                }
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("PriceLessXSaleQuery")',
+                    data: { price: price},
+                    datatype: 'json',
+                    cache: false,
+                })
+                .done(function (data) {
+                    var outPut = '';
+                    for (var i = 0; i < data.Q_24.length; i++) {
+                        for (var j = 0; j < data.Q_24[i].length; j++) {
+                            outPut += data.Q_24[i][j].Item1 + data.Q_24[i][j].Item2 + '<br/>';
+                        }
+                        outPut += '<hr/><br/>';
+                    }
+                    $('#lblMessage').html(outPut);
+                })
+                    .fail(function (hxr, ajaxOptions, throwError) {
+                        swal({
+                            title: 'Problemas!',
+                            text: "Se produjo un error. Intente de nuevo. Verifique si se introdujo un precio válido.",
+                            type: 'error'
+                        })
+                });
+
+            return false;
+        });
+
+//----------------------------------------------End3-----------------------------------------------------------------
+
+            $('#btnGetQuery4').on("click", function () {
+                var price = $('#txtPrice').val();
+                if (price == "") {
+                    swal({
+                        title: 'Atención!',
+                        text: "Usted debe introducir un precio.",
+                        type: 'warning'
+                    })
+                    return false;
+                }
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("PriceEqualsXSaleQuery")',
+                    data: { price: price},
+                    datatype: 'json',
+                    cache: false,
+                })
+                    .done(function (data) {
+                        var outPut = '';
+                        for (var i = 0; i < data.Q_25.length; i++) {
+                            for (var j = 0; j < data.Q_25[i].length; j++) {
+                                outPut += data.Q_25[i][j].Item1 + data.Q_25[i][j].Item2 + '<br/>';
+                            }
+                            outPut += '<hr/><br/>';
+                        }
+                        $('#lblMessage').html(outPut);
+                    })
+                    .fail(function (hxr, ajaxOptions, throwError) {
+                        swal({
+                            title: 'Problemas!',
+                            text: "Se produjo un error. Intente de nuevo. Verifique si se introdujo un precio válido.",
+                            type: 'error'
+                        })
+                    });
+            return false;
+        });
+
+//----------------------------------------------End4-----------------------------------------------------------------
+
+            $('#btnGetQuery5').on("click", function () {
+                var center = $('#txtCenter').val();
+                if (center == "") {
+                    swal({
+                        title: 'Atención!',
+                        text: "Usted debe introducir un centro.",
+                        type: 'warning'
+                    })
+                    return false;
+                }
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("CenterSaleQuery")',
+                    data: { center: center},
+                    datatype: 'json',
+                    cache: false,
+                })
+                .done(function (data) {
+                    var outPut = '';
+                    for (var i = 0; i < data.Q_26.length; i++) {
+                        for (var j = 0; j < data.Q_26[i].length; j++) {
+                            outPut += data.Q_26[i][j].Item1 + data.Q_26[i][j].Item2 + '<br/>';
+                        }
+                        outPut += '<hr/><br/>';
+                    }
+                    $('#lblMessage').html(outPut);
+                })
+                .fail(function (hxr, ajaxOptions, throwError) {
+                    swal({
+                        title: 'Problemas!',
+                        text: "Se produjo un error. Intente de nuevo.",
+                        type: 'error'
+                    })
+                });
+            return false;
+            });
+
+//----------------------------------------------End5-----------------------------------------------------------------
+
+             $('#btnGetQuery6').on("click", function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("ProductGroupByCountSaleQuery")',
+                    data: {},
+                    datatype: 'json',
+                    cache: false,
+                })
+                    .done(function (data) {
+                        var outPut = '';
+                        for (var i = 0; i < data.Q_27.length; i++) {
+                            for (var j = 0; j < data.Q_27[i].Item1.length; j++) {
+                                outPut += data.Q_27[i].Item1[j].Item1 + data.Q_27[i].Item1[j].Item2 + '<br/>';
+                            }
+                            outPut += "Cantidad: " + data.Q_27[i].Item2;
+                            outPut += '<hr/><br/>';
+                        }
+                        $('#lblMessage').html(outPut);
+                    })
+                    .fail(function (hxr, ajaxOptions, throwError) {
+                        swal({
+                            title: 'Problemas!',
+                            text: "Se produjo un error. Intente de nuevo.",
+                            type: 'error'
+                        })
+                    });
+            return false;
+            });
+
+//----------------------------------------------End6-----------------------------------------------------------------
+            
+     });
+    </script>
+}

@@ -1,0 +1,41 @@
+﻿@model Data.AuthorityTempMarket
+
+
+<section class="section bg-light">
+    <div class="container">
+        <div class="row justify-content-center mb-5 element-animate">
+            <div class="col-md-8 text-center mb-5">
+                <h2 class="text-uppercase heading border-bottom mb-4">Borrar Autorización de Mercado Temporal</h2>
+                <br />
+                <p class="mb-0 lead">
+                    <label for="Name" style="color:black">Nombre del Producto:</label>
+                    @Html.DisplayFor(model => model.Product.Name)
+                </p>
+                <p class="mb-0 lead">
+                    <label for="Date" style="color:black">Fecha:</label>
+                    @Html.DisplayFor(model => model.Date)
+                </p>
+                <p class="mb-0 lead">
+                    <label for="Documentation" style="color:black">Documentación:</label>
+                    @Html.DisplayFor(model => model.Documentation)
+                </p>
+                <p class="mb-0 lead">
+                    <label for="_montoYear" style="color:black">Tiempo de vida en años:</label>
+                    @Html.DisplayFor(model => model._montoYear)
+                </p>
+                <p class="mb-0 lead">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+                        <button class="btn btn-lg fa fa-trash fa-lg" type="submit" style="color:red"></button>
+                    }
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cover_1" style="background-image: url(/myimag/mole1.jpg);">
+    <div class="container">
+    </div>
+</section>

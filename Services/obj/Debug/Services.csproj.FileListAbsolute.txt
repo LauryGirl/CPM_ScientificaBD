@@ -1,0 +1,23 @@
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\Services\bin\Debug\Services.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\Services\bin\Debug\Services.pdb
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\Services\obj\Debug\Services.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\Services\obj\Debug\Services.pdb
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\Shey\Desktop\CPM_Scientifica\Services\bin\Debug\Services.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\Services\bin\Debug\Services.pdb
+C:\Users\Shey\Desktop\CPM_Scientifica\Services\obj\Debug\Services.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\Services\obj\Debug\Services.pdb
+C:\Users\Shey\Desktop\CPM_Scientifica\Services\obj\Debug\Services.csprojAssemblyReference.cache
+C:\Users\Shey\Desktop\CPM_Scientifica\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\Services\bin\Debug\Services.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\Services\bin\Debug\Services.pdb
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\Services\obj\Debug\Services.csproj.AssemblyReference.cache
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\Services\obj\Debug\Services.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\Services\obj\Debug\Services.pdb
+D:\laura\CPM_Scientifica\Services\bin\Debug\Services.dll
+D:\laura\CPM_Scientifica\Services\bin\Debug\Services.pdb
+D:\laura\CPM_Scientifica\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+D:\laura\CPM_Scientifica\Services\obj\Debug\Services.dll
+D:\laura\CPM_Scientifica\Services\obj\Debug\Services.pdb
+D:\laura\CPM_Scientifica\Services\obj\Debug\Services.csprojAssemblyReference.cache

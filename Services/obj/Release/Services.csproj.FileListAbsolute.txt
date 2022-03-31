@@ -1,0 +1,6 @@
+D:\laura\CPM_Scientifica\Services\bin\Release\Services.dll
+D:\laura\CPM_Scientifica\Services\bin\Release\Services.pdb
+D:\laura\CPM_Scientifica\Services\obj\Release\Services.csproj.CoreCompileInputs.cache
+D:\laura\CPM_Scientifica\Services\obj\Release\Services.dll
+D:\laura\CPM_Scientifica\Services\obj\Release\Services.pdb
+D:\laura\CPM_Scientifica\Services\obj\Release\Services.csprojAssemblyReference.cache

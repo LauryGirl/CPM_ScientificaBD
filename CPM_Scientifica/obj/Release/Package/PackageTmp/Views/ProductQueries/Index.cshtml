@@ -1,0 +1,482 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<link rel="stylesheet" type="text/css" href="~/sweetalert/sweetalert/sweetalert2.min.css">
+<script type="text/javascript" src="~/sweetalert/sweetalert/sweetalert2.min.js"></script>
+
+@using (Html.BeginForm())
+{
+    <section class="home-slider inner-page owl-carousel">
+        <div class="slider-item" style="background-image: url(/medi/img/slider-2.jpg);">
+            <div class="container">
+                <div class="row slider-text align-items-center">
+                    <div class="col-md-15 col-sm-20 element-animate">
+                        <h1>Realiza tu consulta</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="container home-feature mb-5">
+        <div class="row">
+            <div class="col-md-4 p-0 one-col element-animate">
+                <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
+                    <span class="icon flaticon-hospital-bed"></span>
+                    <h2>Consulta 1</h2>
+                    <p>Esta consulta retorna todos aquellos productos que no han presentado registro.</p>
+                </div>
+                <button class="btn-more fa fa-hand-o-up fa-lg" id="btnGetQuery1">Consultar</button>
+            </div>
+            <div class="col-md-4 p-0 two-col element-animate">
+                <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
+                    <span class="icon flaticon-first-aid-kit"></span>
+                    <h2>Consulta 2</h2>
+                    <p>Esta consulta retorna todos aquellos productos que han presentado registro.</p>
+                </div>
+                <button class="btn-more fa fa-hand-o-up fa-lg" id="btnGetQuery2">Consultar</button>
+            </div>
+            <div class="col-md-4 p-0 three-col element-animate">
+                <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
+                    <span class="icon flaticon-hospital"></span>
+                    <h2>Consulta 3</h2>
+                    <p>Esta consulta retorna todos aquellos productos que no han presentado registro
+                    y tienen como estado Cecmed.</p>
+                </div>
+                <button class="btn-more fa fa-hand-o-up fa-lg" id="btnGetQuery3">Consultar</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 p-0 one-col element-animate">
+                <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
+                    <span class="icon flaticon-hospital-bed"></span>
+                    <h2>Consulta 4</h2>
+                    <p>Esta consulta retorna todos aquellos productos que no han presentado registro
+                    y tienen como estado No presentado.</p>
+                </div>
+                <button class="btn-more fa fa-hand-o-up fa-lg" id="btnGetQuery4">Consultar</button>
+            </div>
+            <div class="col-md-4 p-0 two-col element-animate">
+                <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
+                    <span class="icon flaticon-first-aid-kit"></span>
+                    <h2>Consulta 5</h2>
+                    <p>Esta consulta retorna todos aquellos productos que tienen como tipo microbiología.</p>
+                </div>
+                <button class="btn-more fa fa-hand-o-up fa-lg" id="btnGetQuery5">Consultar</button>
+            </div>
+            <div class="col-md-4 p-0 three-col element-animate">
+                <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
+                    <span class="icon flaticon-hospital"></span>
+                    <h2>Consulta 6</h2>
+                    <p>Esta consulta retorna todos aquellos productos que tienen como tipo química clínica.</p>
+                </div>
+                <button class="btn-more fa fa-hand-o-up fa-lg" id="btnGetQuery6">Consultar</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 p-0 one-col element-animate">
+                <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
+                    <span class="icon flaticon-hospital-bed"></span>
+                    <h2>Consulta 7</h2>
+                    <p>Esta consulta retorna todos aquellos productos cuyo sistema coincida con el que se indica
+                    en el espacio definido para ello.</p>
+                </div>
+                <button class="btn-more fa fa-hand-o-up fa-lg" id="btnGetQuery7">Consultar</button>
+            </div>
+            <div class="col-md-4 p-0 two-col element-animate">
+                <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
+                    <span class="icon flaticon-first-aid-kit"></span>
+                    <h2>Consulta 8</h2>
+                    <p>Esta consulta retorna todos aquellos productos cuya familia coincida con el que se indica
+                    en el espacio definido para ello.</p>
+                </div>
+                <button class="btn-more fa fa-hand-o-up fa-lg" id="btnGetQuery8">Consultar</button>
+            </div>
+            <div class="col-md-4 p-0 two-col element-animate">
+                <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
+                    <span class="icon flaticon-first-aid-kit"></span>
+                    <h2>Consulta 9</h2>
+                    <p>Esta consulta retorna todos aquellos productos cuyo fabricante coincida con el que se indica
+                    en el espacio definido para ello.</p>
+                </div>
+                <button class="btn-more fa fa-hand-o-up fa-lg" id="btnGetQuery9">Consultar</button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="section bg-light">
+        <div class="container">
+            <div class="row justify-content-center mb-5 element-animate">
+                <div class="col-md-8 text-center mb-5">
+                    <h2 class="text-uppercase heading border-bottom mb-4">Si necesitas especificar algo</h2>
+                    <p class="mb-0 lead">
+                        Llena los campos necesarios.
+                    </p>
+                    <input class=" form-control-lg" id="txtSystem" type="text" placeholder="Sistema" />
+                    <input class=" form-control-lg" id="txtFamily" type="text" placeholder="Familia" />
+                    <input class=" form-control-lg" id="txtMaker" type="text" placeholder="Fabricante" />
+                </div>
+            </div>
+            <div class="row justify-content-center mb-5 element-animate">
+                <div class="col-md-8 text-center mb-5">
+                    <h2 class="text-uppercase heading border-bottom mb-4">En caso de consulta</h2>
+                    <p class="mb-0 lead">
+                        La respuesta a tu consulta será mostrada aquí.
+                    </p>
+                    <button class="btn btn-classic btn-lg fa fa-refresh fa-lg" id="btnGetClean"></button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <p> <div id="lblMessage" style="color:black"></div></p>
+}
+
+
+@section Scripts
+    {
+    <script type="text/javascript">
+
+        $(function () {
+
+            $('#btnGetClean').on("click", function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("CleanerQueries")',
+                    data: {},
+                    datatype: 'json',
+                    cache: false,
+                })
+                .done(function (data) {
+                    if (data.Clean) {
+                        $('#lblMessage').html('');
+                    }
+                    else {
+                    }
+                })
+                .fail(function (hxr, ajaxOptions, throwError) {
+                    swal({
+                        title: 'Problemas!',
+                        text: "Se produjo un error. Intente de nuevo.",
+                        type: 'error'
+                    })
+                });
+
+                return false;
+            });
+
+
+            $('#btnGetQuery1').on("click", function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("RegisterNotPresentProdQuery")',
+                    data: {},
+                    datatype: 'json',
+                    cache: false,
+                })
+                .done(function (data) {
+                    var outPut = '';
+                    for (var i = 0; i < data.Q_1.length; i++) {
+                        for (var j = 0; j < data.Q_1[i].length; j++) {
+                            outPut += data.Q_1[i][j].Item1 + data.Q_1[i][j].Item2 + '<br/>';
+                        }
+                        outPut += '<hr/><br/>';
+                    }
+                    $('#lblMessage').html(outPut);
+                })
+                .fail(function (hxr, ajaxOptions, throwError) {
+                    swal({
+                        title: 'Problemas!',
+                        text: "Se produjo un error. Intente de nuevo.",
+                        type: 'error'
+                    })
+                });
+
+            return false;
+        });
+
+//----------------------------------------------End1-----------------------------------------------------------------
+
+
+            $('#btnGetQuery2').on("click", function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("RegisterPresentProdQuery")',
+                    data: {},
+                    datatype: 'json',
+                    cache: false,
+                })
+                    .done(function (data) {
+                        var outPut = '';
+                        for (var i = 0; i < data.Q_2.length; i++) {
+                            for (var j = 0; j < data.Q_2[i].length; j++) {
+                                outPut += data.Q_2[i][j].Item1 + data.Q_2[i][j].Item2 + '<br/>';
+                            }
+                            outPut += '<hr/><br/>';
+                        }
+                        $('#lblMessage').html(outPut);
+                    })
+                    .fail(function (hxr, ajaxOptions, throwError) {
+                        swal({
+                            title: 'Problemas!',
+                            text: "Se produjo un error. Intente de nuevo.",
+                            type: 'error'
+                        })
+                    });
+
+            return false;
+        });
+
+//----------------------------------------------End2-----------------------------------------------------------------
+
+            $('#btnGetQuery3').on("click", function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("CecmedPresentProdQuery")',
+                    data: {},
+                    datatype: 'json',
+                    cache: false,
+                })
+                    .done(function (data) {
+                    var outPut = '';
+                    for (var i = 0; i < data.Q_3.length; i++) {
+                        for (var j = 0; j < data.Q_3[i].length; j++) {
+                            outPut += data.Q_3[i][j].Item1 + data.Q_3[i][j].Item2 + '<br/>';
+                        }
+                        outPut += '<hr/><br/>';
+                    }
+                    $('#lblMessage').html(outPut);
+                })
+                .fail(function (hxr, ajaxOptions, throwError) {
+                    swal({
+                        title: 'Problemas!',
+                        text: "Se produjo un error. Intente de nuevo.",
+                        type: 'error'
+                    })
+                });
+
+            return false;
+        });
+
+//----------------------------------------------End3-----------------------------------------------------------------
+
+
+            $('#btnGetQuery4').on("click", function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("CecmedNotPresentProdQuery")',
+                    data: {},
+                    datatype: 'json',
+                    cache: false,
+                })
+                    .done(function (data) {
+                        var outPut = '';
+                        for (var i = 0; i < data.Q_4.length; i++) {
+                            for (var j = 0; j < data.Q_4[i].length; j++) {
+                                outPut += data.Q_4[i][j].Item1 + data.Q_4[i][j].Item2 + '<br/>';
+                            }
+                            outPut += '<hr/><br/>';
+                        }
+                        $('#lblMessage').html(outPut);
+                    })
+                    .fail(function (hxr, ajaxOptions, throwError) {
+                        swal({
+                            title: 'Problemas!',
+                            text: "Se produjo un error. Intente de nuevo.",
+                            type: 'error'
+                        })
+                    });
+            return false;
+        });
+
+//----------------------------------------------End4-----------------------------------------------------------------
+
+            $('#btnGetQuery5').on("click", function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("MicrobiologyProdQuery")',
+                    data: {},
+                    datatype: 'json',
+                    cache: false,
+                })
+                .done(function (data) {
+                    var outPut = '';
+                    for (var i = 0; i < data.Q_5.length; i++) {
+                        for (var j = 0; j < data.Q_5[i].length; j++) {
+                            outPut += data.Q_5[i][j].Item1 + data.Q_5[i][j].Item2 + '<br/>';
+                        }
+                        outPut += '<hr/><br/>';
+                    }
+                    $('#lblMessage').html(outPut);
+                })
+                .fail(function (hxr, ajaxOptions, throwError) {
+                    swal({
+                        title: 'Problemas!',
+                        text: "Se produjo un error. Intente de nuevo.",
+                        type: 'error'
+                    })
+                });
+            return false;
+            });
+
+//----------------------------------------------End5-----------------------------------------------------------------
+
+             $('#btnGetQuery6').on("click", function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("ClinicChemistryProdQuery")',
+                    data: {},
+                    datatype: 'json',
+                    cache: false,
+                })
+                    .done(function (data) {
+                        var outPut = '';
+                        for (var i = 0; i < data.Q_6.length; i++) {
+                            for (var j = 0; j < data.Q_6[i].length; j++) {
+                                outPut += data.Q_6[i][j].Item1 + data.Q_6[i][j].Item2 + '<br/>';
+                            }
+                            outPut += '<hr/><br/>';
+                        }
+                        $('#lblMessage').html(outPut);
+                    })
+                    .fail(function (hxr, ajaxOptions, throwError) {
+                        swal({
+                            title: 'Problemas!',
+                            text: "Se produjo un error. Intente de nuevo.",
+                            type: 'error'
+                        })
+                    });
+            return false;
+            });
+
+//----------------------------------------------End6-----------------------------------------------------------------
+
+             $('#btnGetQuery7').on("click", function () {
+                 var system = $('#txtSystem').val();
+                 if (system == "") {
+                     swal({
+                         title: 'Atención!',
+                         text: "Usted debe introducir un sistema.",
+                         type: 'warning'
+                     })
+                     return false;
+                 }
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("SystemProdQuery")',
+                    data: { system: system},
+                    datatype: 'json',
+                    cache: false,
+                })
+                .done(function (data) {
+                    var outPut = '';
+                    for (var i = 0; i < data.Q_7.length; i++) {
+                        for (var j = 0; j < data.Q_7[i].length; j++) {
+                            outPut += data.Q_7[i][j].Item1 + data.Q_7[i][j].Item2 + '<br/>';
+                        }
+                        outPut += '<hr/><br/>';
+                    }
+                    $('#lblMessage').html(outPut);
+                })
+                .fail(function (hxr, ajaxOptions, throwError) {
+                    swal({
+                        title: 'Problemas!',
+                        text: "Se produjo un error. Intente de nuevo.",
+                        type: 'error'
+                    })
+                });
+            return false;
+            });
+
+//----------------------------------------------End7-----------------------------------------------------------------
+
+             $('#btnGetQuery8').on("click", function () {
+                 var family = $('#txtFamily').val();
+                 if (family == "") {
+                     swal({
+                         title: 'Atención!',
+                         text: "Usted debe introducir una familia.",
+                         type: 'warning'
+                     })
+                     return false;
+                 }
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("FamilyProdQuery")',
+                    data: { family: family},
+                    datatype: 'json',
+                    cache: false,
+                })
+                .done(function (data) {
+                    var outPut = '';
+                    for (var i = 0; i < data.Q_8.length; i++) {
+                        for (var j = 0; j < data.Q_8[i].length; j++) {
+                            outPut += data.Q_8[i][j].Item1 + data.Q_8[i][j].Item2 + '<br/>';
+                        }
+                        outPut += '<hr/><br/>';
+                    }
+                    $('#lblMessage').html(outPut);
+                })
+                .fail(function (hxr, ajaxOptions, throwError) {
+                    swal({
+                        title: 'Problemas!',
+                        text: "Se produjo un error. Intente de nuevo.",
+                        type: 'error'
+                    })
+                });
+            return false;
+             });
+
+
+//----------------------------------------------End8-----------------------------------------------------------------
+
+             $('#btnGetQuery9').on("click", function () {
+                 var maker = $('#txtMaker').val();
+                 if (maker == "") {
+                     swal({
+                         title: 'Atención!',
+                         text: "Usted debe introducir un fabricante.",
+                         type: 'warning'
+                     })
+                     return false;
+                 }
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("MakerProdQuery")',
+                    data: { maker: maker},
+                    datatype: 'json',
+                    cache: false,
+                })
+                .done(function (data) {
+                    var outPut = '';
+                    for (var i = 0; i < data.Q_9.length; i++) {
+                        for (var j = 0; j < data.Q_9[i].length; j++) {
+                            outPut += data.Q_9[i][j].Item1 + data.Q_9[i][j].Item2 + '<br/>';
+                        }
+                        outPut += '<hr/><br/>';
+                    }
+                    $('#lblMessage').html(outPut);
+                })
+                .fail(function (hxr, ajaxOptions, throwError) {
+                    swal({
+                        title: 'Problemas!',
+                        text: "Se produjo un error. Intente de nuevo.",
+                        type: 'error'
+                    })
+                });
+            return false;
+             });
+
+
+//----------------------------------------------End9-----------------------------------------------------------------
+
+     });
+    </script>
+}

@@ -1,0 +1,128 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<link rel="stylesheet" type="text/css" href="~/sweetalert/sweetalert/sweetalert2.min.css">
+<script type="text/javascript" src="~/sweetalert/sweetalert/sweetalert2.min.js"></script>
+
+@using (Html.BeginForm())
+{
+    <section class="home-slider inner-page owl-carousel">
+        <div class="slider-item" style="background-image: url(/medi/img/slider-2.jpg);">
+            <div class="container">
+                <div class="row slider-text align-items-center">
+                    <div class="col-md-15 col-sm-20 element-animate">
+                        <h1>Realiza tu consulta</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="container home-feature mb-5">
+        <div class="row">
+            <div class="col-md-4 p-0 one-col element-animate">
+                <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
+                    <span class="icon flaticon-hospital-bed"></span>
+                    <h2>Consulta 1</h2>
+                    <p>Esta consulta retorna todos los productos que han sido objeto de alguna queja
+                    además de la cantidad de quejas que se han realizado de cada uno.</p>
+                </div>
+                <button class="btn-more fa fa-hand-o-up fa-lg" id="btnGetQuery1">Consultar</button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="section bg-light">
+        <div class="container">
+            <div class="row justify-content-center mb-5 element-animate">
+                <div class="col-md-8 text-center mb-5">
+                    <h2 class="text-uppercase heading border-bottom mb-4">En caso de consulta</h2>
+                    <p class="mb-0 lead">
+                        La respuesta a tu consulta será mostrada aquí.
+                    </p>
+                    <button class="btn btn-classic btn-lg fa fa-refresh fa-lg" id="btnGetClean"></button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <p> <div id="lblMessage" style="color:black"></div></p>
+}
+
+
+@section Scripts
+    {
+    <script type="text/javascript">
+
+        $(function () {
+
+            $('#btnGetClean').on("click", function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("CleanerQueries")',
+                    data: {},
+                    datatype: 'json',
+                    cache: false,
+                })
+                .done(function (data) {
+                    if (data.Clean) {
+                        $('#lblMessage').html('');
+                    }
+                    else {
+                    }
+                })
+                .fail(function (hxr, ajaxOptions, throwError) {
+                    swal({
+                        title: 'Problemas!',
+                        text: "Se produjo un error. Intente de nuevo.",
+                        type: 'error'
+                    })
+                });
+
+                return false;
+            });
+
+
+            $('#btnGetQuery1').on("click", function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("ProductGroupByCountWailQuery")',
+                    data: {},
+                    datatype: 'json',
+                    cache: false,
+                })
+                .done(function (data) {
+                    var outPut = '';
+                    for (var i = 0; i < data.Q_30.length; i++) {
+                        for (var j = 0; j < data.Q_30[i].Item1.length; j++) {
+                            outPut += data.Q_30[i].Item1[j].Item1 + data.Q_30[i].Item1[j].Item2 + '<br/>';
+                        }
+                        outPut += "Cantidad: " + data.Q_30[i].Item2;
+                        outPut += '<hr/><br/>';
+                    }
+                    $('#lblMessage').html(outPut);
+                })
+                .fail(function (hxr, ajaxOptions, throwError) {
+                    swal({
+                        title: 'Problemas!',
+                        text: "Se produjo un error. Intente de nuevo.",
+                        type: 'error'
+                    })
+                });
+
+            return false;
+        });
+
+//----------------------------------------------End1-----------------------------------------------------------------
+            
+
+     });
+    </script>
+}

@@ -1,0 +1,488 @@
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\ApplicationInsights.config
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\csc.exe
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\csc.exe.config
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\csc.rsp
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\csi.exe
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\csi.rsp
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.AppContext.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\vbc.exe
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\vbc.exe.config
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\vbc.rsp
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\CPM_Scientifica.dll.config
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\CPM_Scientifica.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\CPM_Scientifica.pdb
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Antlr3.Runtime.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Data.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\EntityFramework.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\EntityFramework.SqlServer.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.Web.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Newtonsoft.Json.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Owin.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Services.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Helpers.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Mvc.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Optimization.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Razor.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\WebGrease.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Data.pdb
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Services.pdb
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Helpers.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Mvc.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Optimization.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Razor.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Antlr3.Runtime.pdb
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Newtonsoft.Json.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\EntityFramework.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\EntityFramework.SqlServer.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.Web.xml
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.Razor.resources.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\EntityFramework.resources.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.resources.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.csprojResolveAssemblyReference.cache
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.dll
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.pdb
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.Migrations.Initial.resources
+C:\Users\Ariel Huerta\Desktop\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.csproj.GenerateResource.Cache
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\ApplicationInsights.config
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\csc.exe
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\csc.exe.config
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\csc.rsp
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\csi.exe
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\csi.rsp
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.AppContext.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\vbc.exe
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\vbc.exe.config
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\vbc.rsp
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\VBCSCompiler.exe
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\CPM_Scientifica.dll.config
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\CPM_Scientifica.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\CPM_Scientifica.pdb
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Antlr3.Runtime.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Data.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\EntityFramework.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\EntityFramework.SqlServer.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.Web.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Newtonsoft.Json.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Owin.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Services.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Helpers.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Mvc.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Optimization.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Razor.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.Razor.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\WebGrease.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Data.pdb
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Services.pdb
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Helpers.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Mvc.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Optimization.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Razor.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.Razor.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Antlr3.Runtime.pdb
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Newtonsoft.Json.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\EntityFramework.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\EntityFramework.SqlServer.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.Web.xml
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.Razor.resources.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\EntityFramework.resources.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.resources.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.Migrations.Initial.resources
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.csproj.GenerateResource.Cache
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.dll
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.pdb
+C:\Users\Shey\Desktop\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.csprojResolveAssemblyReference.cache
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\ApplicationInsights.config
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\csc.exe
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\csc.exe.config
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\csc.rsp
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\csi.exe
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\csi.rsp
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.AppContext.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.Collections.Immutable.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.IO.FileSystem.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.Reflection.Metadata.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\vbc.exe
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\vbc.exe.config
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\vbc.rsp
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\VBCSCompiler.exe
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\roslyn\VBCSCompiler.exe.config
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\CPM_Scientifica.dll.config
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\CPM_Scientifica.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\CPM_Scientifica.pdb
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Antlr3.Runtime.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Data.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\EntityFramework.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\EntityFramework.SqlServer.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.DependencyCollector.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.Web.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.WindowsServer.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.ApplicationInsights.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Google.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Web.Infrastructure.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Newtonsoft.Json.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Owin.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Services.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Helpers.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Mvc.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Optimization.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Razor.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.Deployment.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.Razor.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\WebGrease.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Data.pdb
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Services.pdb
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Helpers.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Mvc.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Optimization.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Razor.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.Deployment.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.Razor.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Antlr3.Runtime.pdb
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Newtonsoft.Json.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\EntityFramework.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\EntityFramework.SqlServer.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Google.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.ApplicationInsights.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.DependencyCollector.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.WindowsServer.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.Web.xml
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.Helpers.resources.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.Mvc.resources.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.Optimization.resources.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.Razor.resources.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.WebPages.resources.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\es\EntityFramework.resources.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.resources.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.csproj.AssemblyReference.cache
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.Migrations.Initial.resources
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.csproj.GenerateResource.cache
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.csproj.CoreCompileInputs.cache
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.csproj.CopyComplete
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.dll
+C:\Escuela\3ro\3er anno my stufffs\Proyecto BDII\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.pdb
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\ApplicationInsights.config
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\csc.exe
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\csc.exe.config
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\csc.rsp
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\csi.exe
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\csi.rsp
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.AppContext.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.Collections.Immutable.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.IO.FileSystem.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\System.Reflection.Metadata.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\vbc.exe
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\vbc.exe.config
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\vbc.rsp
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\VBCSCompiler.exe
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\roslyn\VBCSCompiler.exe.config
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\CPM_Scientifica.dll.config
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\CPM_Scientifica.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\CPM_Scientifica.pdb
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Antlr3.Runtime.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Data.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\EntityFramework.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\EntityFramework.SqlServer.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.Agent.Intercept.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.DependencyCollector.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.Web.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.WindowsServer.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.ApplicationInsights.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.Core.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Cookies.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Facebook.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Google.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.OAuth.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Twitter.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Web.Infrastructure.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Newtonsoft.Json.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Owin.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Services.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Helpers.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Mvc.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Optimization.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Razor.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.Deployment.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.Razor.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\WebGrease.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Data.pdb
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Services.pdb
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Helpers.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Mvc.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Optimization.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\System.Web.Razor.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.Deployment.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\System.Web.WebPages.Razor.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Antlr3.Runtime.pdb
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Newtonsoft.Json.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\EntityFramework.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\EntityFramework.SqlServer.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.Core.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Facebook.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Cookies.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.OAuth.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Google.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.Twitter.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.ApplicationInsights.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.DependencyCollector.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.WindowsServer.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\Microsoft.AI.Web.xml
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.Helpers.resources.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.Mvc.resources.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.Optimization.resources.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.Razor.resources.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.WebPages.resources.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\es\EntityFramework.resources.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\es\EntityFramework.SqlServer.resources.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.resources.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Security.resources.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Security.Google.resources.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.Migrations.Initial.resources
+D:\laura\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.csproj.GenerateResource.cache
+D:\laura\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.csproj.CoreCompileInputs.cache
+D:\laura\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.csproj.CopyComplete
+D:\laura\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.dll
+D:\laura\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.pdb
+D:\laura\CPM_Scientifica\CPM_Scientifica\obj\Debug\CPM_Scientifica.csprojAssemblyReference.cache

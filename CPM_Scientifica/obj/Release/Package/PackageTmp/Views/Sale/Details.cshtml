@@ -1,0 +1,34 @@
+﻿
+@model Data.Sale
+
+<section class="section bg-light">
+    <div class="container">
+        <div class="row justify-content-center mb-5 element-animate">
+            <div class="col-md-8 text-center mb-5">
+                <h2 class="text-uppercase heading border-bottom mb-4">Detalles</h2>
+                <br />
+                <p class="mb-0 lead">
+                    <label for="Name" style="color:black">Nombre del Producto:</label>
+                    @Html.DisplayFor(model => model.Product.Name)
+                </p>
+                <p class="mb-0 lead">
+                    <label for="Date" style="color:black">Fecha:</label>
+                    @Html.DisplayFor(model => model.Date)
+                </p>
+                <p class="mb-0 lead">
+                    <label for="Price" style="color:black">Precio:</label>
+                    @Html.DisplayFor(model => model.Price)
+                </p>
+                <p class="mb-0 lead">
+                    <label for="Center" style="color:black">Centro:</label>
+                    @Html.DisplayFor(model => model.Center)
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cover_1" style="background-image: url(/myimag/mole1.jpg);">
+    <div class="container">
+    </div>
+</section>

@@ -1,0 +1,61 @@
+﻿@model Data.ForeignMaker
+
+<section class="section bg-light">
+    <div class="container">
+        <div class="row justify-content-center mb-5 element-animate">
+            <div class="col-md-8 text-center mb-5">
+                <h2 class="text-uppercase heading border-bottom mb-4">Detalles</h2>
+                <br />
+                <p class="mb-0 lead">
+                    <label for="Name" style="color:black">Nombre del Fabricante:</label>
+                    @Html.DisplayFor(model => model.Name)
+                </p>
+                <p class="mb-0 lead">
+                    <label for="Country" style="color:black">País:</label>
+                    @Html.DisplayFor(model => model.Country)
+                </p>
+                <p class="mb-0 lead">
+                    <label for="_type" style="color:black">Aut. de Cámara de Comercio(ACC):</label>
+                    @Html.DisplayFor(model => model.AuthorityOfCommerceCamera)
+                </p>
+                <p class="mb-0 lead">
+                    <label for="_state" style="color:black">Fecha de la ACC:</label>
+                    @Html.DisplayFor(model => model.AuthorityOfCommerceCameraDate)
+                </p>
+                <p class="mb-0 lead">
+                    <label for="System" style="color:black">Tiempo de Vida de la ACC:</label>
+                    @Html.DisplayFor(model => model.LifeTimeYearsACC)
+                </p>
+                <p class="mb-0 lead">
+                    <label for="Family" style="color:black">Doc. de Buenas Prácticas(DBP):</label>
+                    @Html.DisplayFor(model => model.GoodPracticesDocumentation)
+                </p>
+                <p class="mb-0 lead">
+                    <label for="Application" style="color:black">Fecha de la DBP:</label>
+                    @Html.DisplayFor(model => model.GoodPracticesDocumentationDate)
+                </p>
+                <p class="mb-0 lead">
+                    <label for="Presentation" style="color:black">Tiempo de Vida de la DBP:</label>
+                    @Html.DisplayFor(model => model.LifeTimeYearsGPD)
+                </p>
+                <p class="mb-0 lead">
+                    <label for="CertificateFreeSale" style="color:black">Cer. de Libre Venta(CLV):</label>
+                    @Html.DisplayFor(model => model.CertificateFreeSale)
+                </p>
+                <p class="mb-0 lead">
+                    <label for="CertificateFreeSaleDate" style="color:black">Fecha del CLV:</label>
+                    @Html.DisplayFor(model => model.CertificateFreeSaleDate)
+                </p>
+                <p class="mb-0 lead">
+                    <label for="LifeTimeYearsCFS" style="color:black">Tiempo de Vida del CLV:</label>
+                    @Html.DisplayFor(model => model.LifeTimeYearsCFS)
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cover_1" style="background-image: url(/myimag/mole1.jpg);">
+    <div class="container">
+    </div>
+</section>

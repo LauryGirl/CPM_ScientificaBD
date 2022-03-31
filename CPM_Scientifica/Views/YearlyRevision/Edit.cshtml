@@ -1,0 +1,52 @@
+﻿@model Data.YearlyRevision
+
+<section class="section bg-light">
+    <div class="container">
+        <div class="row justify-content-center mb-5 element-animate">
+            <div class="col-md-25 text-center mb-5">
+                <h2 class="text-uppercase heading border-bottom mb-4">Editar Revisión Anual</h2>
+                <br />
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="row">
+                        <div class="col-md-4 form-group">
+                            <p class="mb-0 lead">
+                                <label for="Name" style="color:black">Nombre del Producto</label><br />
+                                @Html.DropDownList("ProductId", null, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.ProductId, "", new { @class = "text-danger" })
+                            </p>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <p class="mb-0 lead">
+                                <label for="Date" style="color:black">Fecha</label>
+                                @Html.EditorFor(model => model.Date, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Date, "", new { @class = "text-danger" })
+                            </p>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <p class="mb-0 lead">
+                                <label for="LimitRev" style="color:black">Fecha Límite</label>
+                                @Html.EditorFor(model => model.LimitRev, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.LimitRev, "", new { @class = "text-danger" })
+                            </p>
+                        </div>
+                    </div>
+                    <p class="mb-0 lead">
+                        <button class="btn btn-lg fa fa-edit fa-lg" type="submit" style="color:blue"></button>
+                    </p>
+                }
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="cover_1" style="background-image: url(/myimag/mole1.jpg);">
+    <div class="container">
+    </div>
+</section>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

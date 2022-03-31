@@ -1,0 +1,49 @@
+﻿@model Data.Inquest
+
+
+<section class="section bg-light">
+    <div class="container">
+        <div class="row justify-content-center mb-5 element-animate">
+            <div class="col-md-8 text-center mb-5">
+                <h2 class="text-uppercase heading border-bottom mb-4">Borrar Encuesta</h2>
+                <br />
+                <p class="mb-0 lead">
+                    <label for="Name" style="color:black">Nombre del Producto:</label>
+                    @Html.DisplayFor(model => model.Product.Name)
+                </p>
+                <p class="mb-0 lead">
+                    <label for="Date" style="color:black">Fecha:</label>
+                    @Html.DisplayFor(model => model.Date)
+                </p>
+                <p class="mb-0 lead">
+                    <label for="Receiver" style="color:black">Destinatario:</label>
+                    @Html.DisplayFor(model => model.Receiver)
+                </p>
+                <p class="mb-0 lead">
+                    <label for="Center" style="color:black">Centro:</label>
+                    @Html.DisplayFor(model => model.Center)
+                </p>
+                <p class="mb-0 lead">
+                    <label for="Recommendation" style="color:black">Recomendación:</label>
+                    @Html.DisplayFor(model => model.Recommendation)
+                </p>
+                <p class="mb-0 lead">
+                    <label for="_type" style="color:black">Tipo:</label>
+                    @Html.DisplayFor(model => model._type)
+                </p>
+                <p class="mb-0 lead">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+                        <button class="btn btn-lg fa fa-trash fa-lg" type="submit" style="color:red"></button>
+                    }
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cover_1" style="background-image: url(/myimag/mole1.jpg);">
+    <div class="container">
+    </div>
+</section>
